@@ -29,19 +29,3 @@ section#form h1 {
 section#form p {
     font-size: 1em;
 }
-
-input#iemail {
-    width: 40%;
-}
-
-input#isenha {
-    width: 40%;
-}
-
-input#entrar {
-    width: 100%;
-}
-
-input#esqueci-a-senha {
-    width: 100%;
-}

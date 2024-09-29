@@ -15,23 +15,3 @@ section#image {
     width: 30%;
     background-position: center left;
 }
-
-section#form {
-    width: 70%;
-}
-
-input#iemail {
-    width: 60%;
-}
-
-input#isenha {
-    width: 60%;
-}
-
-input#entrar {
-    width: 100%;
-}
-
-input#esqueci-a-senha {
-    width: 100%;
-}
