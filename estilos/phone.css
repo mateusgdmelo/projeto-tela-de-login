@@ -11,6 +11,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -122,4 +123,8 @@ input#esqueci-a-senha {
 input#esqueci-a-senha:hover {
     background-color: var(--cor3);
     cursor: pointer;
+}
+
+@media screen and (orientation: landscape) {
+    
 }
