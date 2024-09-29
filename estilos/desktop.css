@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+}
+
+main {
+    display: table;
+    width: 80vw;
+    height: 350px;
+}
+
+section#image {
+    float: right;
+    height: 350px;
+    width: 50%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    background-position: center left;
+}
+
+section#form {
+    height: 350px;
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+
+section#form h1 {
+    font-size: 2em;
+}
+
+section#form p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input#iemail {
+    width: 40%;
+}
+
+input#isenha {
+    width: 40%;
+}
+
+input#entrar {
+    width: 100%;
+}
+
+input#esqueci-a-senha {
+    width: 100%;
+}

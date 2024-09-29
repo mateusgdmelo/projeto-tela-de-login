@@ -3,3 +3,39 @@
 body {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
 }
+
+main {
+    display: flex;
+    width: 80vw;
+    height: 300px;
+}
+
+section#image {
+    height: 300px;
+    width: 30%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    background-position: center left;
+}
+
+section#form {
+    width: 70%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+input#iemail {
+    width: 60%;
+}
+
+input#isenha {
+    width: 60%;
+}
+
+input#entrar {
+    width: 100%;
+}
+
+input#esqueci-a-senha {
+    width: 100%;
+}
